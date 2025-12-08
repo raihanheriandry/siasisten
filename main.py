@@ -42,11 +42,18 @@ def fetch_lowongan(session):
         if len(cols) < 2:
             continue
 
+        a_tag = row.find("a")
+        if not a_tag:
+            continue  # baris tanpa link (misal lowongan tutup)
+
+        link = a_tag["href"]
+
+        # Ambil ID terakhir dari URL lengkap /lowongan/daftarLowongan/2398/
+        id_lowongan = link.strip("/").split("/")[-1]
+
         nama = cols[1].get_text(" ", strip=True)
         dosen = cols[2].get_text(strip=True)
         status = cols[3].get_text(strip=True)
-        link = row.find("a")["href"]
-        id_lowongan = link.split("/")[-2]  # ambil "2398"
 
         lowongan.append({
             "id": id_lowongan,
