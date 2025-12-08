@@ -12,6 +12,12 @@ jobs:
     steps:
     - uses: actions/checkout@v4
 
+    - name: Restore cache
+      uses: actions/cache@v4
+      with:
+        path: last.json
+        key: last-json-cache
+
     - name: Setup Python
       uses: actions/setup-python@v5
       with:
@@ -26,3 +32,9 @@ jobs:
         SIASISTEN_PASS: ${{ secrets.SIASISTEN_PASS }}
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: python main.py
+
+    - name: Save cache
+      uses: actions/cache@v4
+      with:
+        path: last.json
+        key: last-json-cache
