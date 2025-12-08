@@ -2,7 +2,7 @@ name: Cek Lowongan SIAsisten
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # setiap 5 menit
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -10,10 +10,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
+      with:
+        persist-credentials: false
 
     - name: Setup Python
-      uses: actions/setup-python@v4
+      uses: actions/setup-python@v5
       with:
         python-version: "3.10"
 
@@ -27,8 +29,18 @@ jobs:
         DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
       run: python main.py
 
-    - name: Save last results
-      uses: actions/upload-artifact@v3
+    # OPSIONAL: commit perubahan last.json kembali ke repo
+    - name: Commit updates
+      if: success()
+      run: |
+        if [ -f "last.json" ]; then
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add last.json
+          git commit -m "Update last.json" || echo "No changes to commit"
+        fi
+    - name: Push changes
+      if: success()
+      uses: ad-m/github-push-action@v0.8.0
       with:
-        name: last
-        path: last.json
+        github_token: ${{ secrets.GITHUB_TOKEN }}
