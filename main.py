@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 
-LOGIN_URL = "https://siasisten.cs.ui.ac.id/accounts/login/"
+LOGIN_URL = "https://siasisten.cs.ui.ac.id/login/"
 LOWONGAN_URL = "https://siasisten.cs.ui.ac.id/lowongan/listLowongan/"
 
 USERNAME = os.getenv("SIASISTEN_USER")
