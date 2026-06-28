@@ -26,9 +26,9 @@ jobs:
 
       - name: Run checker
         env:
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          SITE_USERNAME:       ${{ secrets.SITE_USERNAME }}
-          SITE_PASSWORD:       ${{ secrets.SITE_PASSWORD }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK }}
+          SITE_USERNAME:       ${{ secrets.SIASISTEN_USER }}
+          SITE_PASSWORD:       ${{ secrets.SIASISTEN_PASS }}
         run: python checker.py
 
       - name: Commit cache update
