@@ -1,100 +1,107 @@
+import os
+import json
+import hashlib
 import requests
 from bs4 import BeautifulSoup
-import json
-import os
 
-LOGIN_URL = "https://siasisten.cs.ui.ac.id/login/"
+# ── Config ──────────────────────────────────────────────
+LOGIN_URL    = "https://siasisten.cs.ui.ac.id/login/"
 LOWONGAN_URL = "https://siasisten.cs.ui.ac.id/lowongan/listLowongan/"
+DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK_URL"]
+CACHE_FILE   = "last_data.json"
 
-USERNAME = os.getenv("SIASISTEN_USER")
-PASSWORD = os.getenv("SIASISTEN_PASS")
-WEBHOOK = os.getenv("DISCORD_WEBHOOK")
+# ── Login ────────────────────────────────────────────────
+session = requests.Session()
 
-def send_discord(msg):
-    requests.post(WEBHOOK, json={"content": msg})
+# Ambil CSRF token dulu (Django butuh ini)
+r = session.get(LOGIN_URL)
+soup = BeautifulSoup(r.text, "html.parser")
+csrf_token = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
 
-def login():
-    session = requests.Session()
-    # ambil csrf token
-    r = session.get(LOGIN_URL)
-    soup = BeautifulSoup(r.text, "html.parser")
-    csrf = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
+login_payload = {
+    "csrfmiddlewaretoken": csrf_token,
+    "username": os.environ["SITE_USERNAME"],
+    "password": os.environ["SITE_PASSWORD"],
+}
 
-    payload = {
-        "username": USERNAME,
-        "password": PASSWORD,
-        "csrfmiddlewaretoken": csrf
-    }
+r = session.post(LOGIN_URL, data=login_payload, headers={"Referer": LOGIN_URL})
+r.raise_for_status()
 
-    session.post(LOGIN_URL, data=payload, headers={"Referer": LOGIN_URL})
-    return session
+# Validasi login berhasil
+if "login" in r.url.lower() or "Login" in r.text[:500]:
+    raise Exception("Login gagal! Cek username/password.")
 
-def fetch_lowongan(session):
-    r = session.get(LOWONGAN_URL)
-    soup = BeautifulSoup(r.text, "html.parser")
+print("Login berhasil.")
 
-    rows = soup.find_all("tr")[1:]  # skip header
+# ── Scrape tabel Semester Selanjutnya ───────────────────
+r = session.get(LOWONGAN_URL)
+r.raise_for_status()
+soup = BeautifulSoup(r.text, "html.parser")
 
-    lowongan = []
+# Cari section "Semester Selanjutnya"
+section = soup.find("div", {"data-testid": "section-semester-selanjutnya"})
+if not section:
+    raise Exception("Section semester selanjutnya tidak ditemukan.")
 
-    for row in rows:
-        cols = row.find_all("td")
-        if len(cols) < 2:
-            continue
+rows = []
+for tr in section.select("table tbody tr"):
+    cols = [td.get_text(strip=True) for td in tr.find_all("td")]
+    if len(cols) >= 5:
+        row = {
+            "no":              cols[0],
+            "mata_kuliah":     cols[1],
+            "dosen":           cols[2],
+            "status_lowongan": cols[3],
+            "jumlah_lowongan": cols[4],
+        }
+        rows.append(row)
 
-        a_tag = row.find("a")
-        if not a_tag:
-            continue  # baris tanpa link (misal lowongan tutup)
+print(f"Ditemukan {len(rows)} baris di tabel.")
 
-        link = a_tag["href"]
+# ── Load cache ───────────────────────────────────────────
+if os.path.exists(CACHE_FILE):
+    with open(CACHE_FILE) as f:
+        cached = json.load(f)
+    old_hashes = set(cached.get("hashes", []))
+    old_rows   = {r["mata_kuliah"]: r for r in cached.get("rows", [])}
+else:
+    old_hashes = set()
+    old_rows   = {}
 
-        # Ambil ID terakhir dari URL lengkap /lowongan/daftarLowongan/2398/
-        id_lowongan = link.strip("/").split("/")[-1]
+# ── Deteksi baris baru ───────────────────────────────────
+def row_hash(row):
+    key = row["mata_kuliah"] + row["dosen"] + row["status_lowongan"]
+    return hashlib.md5(key.encode()).hexdigest()
 
-        nama = cols[1].get_text(" ", strip=True)
-        dosen = cols[2].get_text(strip=True)
-        status = cols[3].get_text(strip=True)
+new_rows = [r for r in rows if row_hash(r) not in old_hashes]
 
-        lowongan.append({
-            "id": id_lowongan,
-            "nama": nama,
-            "dosen": dosen,
-            "status": status,
-            "url": "https://siasisten.cs.ui.ac.id" + link
-        })
+# ── Kirim ke Discord ─────────────────────────────────────
+if new_rows:
+    for row in new_rows:
+        status_color = 0x57F287 if row["status_lowongan"] == "Dibuka" else 0xED4245
+        payload = {
+            "embeds": [{
+                "title": "🔔 Lowongan Baru — Semester Selanjutnya",
+                "color": status_color,
+                "fields": [
+                    {"name": "📚 Mata Kuliah", "value": row["mata_kuliah"], "inline": False},
+                    {"name": "👨‍🏫 Dosen",       "value": row["dosen"],        "inline": True},
+                    {"name": "📋 Status",       "value": row["status_lowongan"], "inline": True},
+                    {"name": "🪑 Kuota",        "value": row["jumlah_lowongan"], "inline": True},
+                ],
+                "footer": {"text": "SIAsisten • Ganjil 2026/2027"},
+                "url": LOWONGAN_URL,
+            }]
+        }
+        resp = requests.post(DISCORD_WEBHOOK, json=payload)
+        print(f"Notifikasi dikirim: {row['mata_kuliah']} (status {resp.status_code})")
+    print(f"Total {len(new_rows)} lowongan baru dikirim ke Discord.")
+else:
+    print("Tidak ada lowongan baru.")
 
-    return lowongan
+# ── Update cache ─────────────────────────────────────────
+all_hashes = [row_hash(r) for r in rows]
+with open(CACHE_FILE, "w") as f:
+    json.dump({"hashes": all_hashes, "rows": rows}, f, ensure_ascii=False, indent=2)
 
-def load_last():
-    if os.path.exists("last.json"):
-        with open("last.json", "r") as f:
-            return json.load(f)
-    return []
-
-def save_last(data):
-    with open("last.json", "w") as f:
-        json.dump(data, f)
-
-def main():
-    session = login()
-    data = fetch_lowongan(session)
-    last = load_last()
-
-    last_ids = {item["id"] for item in last}
-    new_lowongan = [l for l in data if l["id"] not in last_ids]
-
-    for low in new_lowongan:
-        msg = (
-            f"📢 **Lowongan Baru Dibuka!**\n"
-            f"**{low['nama']}**\n"
-            f"Dosen: {low['dosen']}\n"
-            f"Status: {low['status']}\n"
-            f"Link: {low['url']}"
-        )
-        send_discord(msg)
-
-    save_last(data)
-
-
-if __name__ == "__main__":
-    main()
+print("Cache diperbarui.")
