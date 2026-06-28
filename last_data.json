@@ -1,0 +1,20 @@
+{
+  "hashes": [
+    "37fc4a2a73b1fa70e522f790eba59d29",
+    "3003e32da090b70ba5c375df61aaa6e6"
+  ],
+  "rows": [
+    {
+      "mata_kuliah": "Pengantar Organisasi KomputerCSCM601252• 01.00.12.01-2020",
+      "dosen": "adhi",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4"
+    },
+    {
+      "mata_kuliah": "Struktur LinearCSAM601012• 10.00.12.01-2026",
+      "dosen": "alfan",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2"
+    }
+  ]
+}
