@@ -1,0 +1,22 @@
+{
+  "hashes": [
+    "3ff73b672f00a29adabb8d13b847b29a",
+    "288f7cdf88af44b8fdab87cb061a8cb3"
+  ],
+  "rows": [
+    {
+      "mata_kuliah": "Pengantar Organisasi Komputer",
+      "dosen": "adhi",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "9"
+    },
+    {
+      "mata_kuliah": "Struktur Linear",
+      "dosen": "alfan",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "15"
+    }
+  ]
+}
