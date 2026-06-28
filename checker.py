@@ -36,7 +36,7 @@ def login():
     print("Response login:", r.text[:300])
     print("Cookies setelah login:", dict(session.cookies))
 
-    if r.status_code != 200:
+    if r.status_code not in (200, 202):
         raise Exception(f"Login gagal! Status: {r.status_code}")
 
     # Validasi: pastikan accessToken ada di cookie
