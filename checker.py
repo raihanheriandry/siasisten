@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # ── Config ──────────────────────────────────────────────
 LOGIN_URL    = "https://siasisten.cs.ui.ac.id/login.data"
 LOWONGAN_URL = "https://siasisten.cs.ui.ac.id/lowongan/listLowongan/"
-DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK_URL"]
+DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 CACHE_FILE   = "last_data.json"
 
 # ── Login ────────────────────────────────────────────────
