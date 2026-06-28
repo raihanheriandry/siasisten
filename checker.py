@@ -46,7 +46,12 @@ def login():
     print("Login berhasil!")
     return session
 
-# ── Scrape ───────────────────────────────────────────────
+# ── Hash ─────────────────────────────────────────────────
+def row_hash(row):
+    key = row["mata_kuliah"] + row["dosen"] + row["status_lowongan"]
+    return hashlib.md5(key.encode()).hexdigest()
+
+# ── Discord ──────────────────────────────────────────────
 def scrape(session):
     r = session.get(LOWONGAN_URL)
     r.raise_for_status()
@@ -59,23 +64,23 @@ def scrape(session):
     rows = []
     for tr in section.select("table tbody tr"):
         cols = [td.get_text(strip=True) for td in tr.find_all("td")]
-        if len(cols) >= 6:
+        if len(cols) >= 8:
+            # Ambil nama matkul saja (sebelum kode, pisah di baris pertama span)
+            td_matkul = tr.select("td")[1]
+            nama_matkul = td_matkul.select_one("span.font-semibold").get_text(strip=True)
+
             rows.append({
-                "mata_kuliah":     cols[1],
+                "mata_kuliah":     nama_matkul,
                 "dosen":           cols[3],
                 "status_lowongan": cols[4],
-                "jumlah_lowongan": cols[5],
+                "jumlah_lowongan": cols[5],  # kuota
+                "jumlah_pelamar":  cols[6],  # pendaftar
             })
 
     print(f"Ditemukan {len(rows)} baris di tabel.")
     return rows
 
-# ── Hash ─────────────────────────────────────────────────
-def row_hash(row):
-    key = row["mata_kuliah"] + row["dosen"] + row["status_lowongan"]
-    return hashlib.md5(key.encode()).hexdigest()
 
-# ── Discord ──────────────────────────────────────────────
 def notify(row):
     status_color = 0x57F287 if row["status_lowongan"] == "Dibuka" else 0xED4245
     payload = {
@@ -83,10 +88,11 @@ def notify(row):
             "title": "🔔 Lowongan Baru — Semester Selanjutnya",
             "color": status_color,
             "fields": [
-                {"name": "📚 Mata Kuliah",  "value": row["mata_kuliah"],     "inline": False},
-                {"name": "👨‍🏫 Dosen",        "value": row["dosen"],           "inline": True},
-                {"name": "📋 Status",        "value": row["status_lowongan"], "inline": True},
-                {"name": "🪑 Kuota",         "value": row["jumlah_lowongan"], "inline": True},
+                {"name": "📚 Matkul",     "value": row["mata_kuliah"],     "inline": False},
+                {"name": "👨‍🏫 Dosen",      "value": row["dosen"],           "inline": False},
+                {"name": "📋 Status",      "value": row["status_lowongan"], "inline": False},
+                {"name": "🪑 Kuota",       "value": row["jumlah_lowongan"], "inline": False},
+                {"name": "👥 Pendaftar",   "value": row["jumlah_pelamar"],  "inline": False},
             ],
             "footer": {"text": "SIAsisten • Ganjil 2026/2027"},
             "url": LOWONGAN_URL,
