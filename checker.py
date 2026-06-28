@@ -14,25 +14,36 @@ CACHE_FILE   = "last_data.json"
 def login():
     session = requests.Session()
 
-    # Cek cookie apa yang ada setelah GET homepage
-    session.get("https://siasisten.cs.ui.ac.id/")
-    print("Cookies setelah GET:", dict(session.cookies))
-
-    # Coba juga GET halaman login
+    # Step 1: GET dulu untuk dapat csrftoken cookie
     session.get("https://siasisten.cs.ui.ac.id/login")
-    print("Cookies setelah GET login:", dict(session.cookies))
+    csrf = session.cookies.get("csrftoken")
+    print("CSRF token:", csrf)
 
+    # Step 2: POST login dengan content-type yang benar
     r = session.post(
         LOGIN_URL,
         data=f"username={os.environ['SITE_USERNAME']}&password={os.environ['SITE_PASSWORD']}",
         headers={
+            "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8",
+            "X-CSRFToken": csrf,
             "Referer": "https://siasisten.cs.ui.ac.id/login",
             "Origin": "https://siasisten.cs.ui.ac.id",
-            "Content-Type": "text/x-script; charset=utf-8",
+            "Accept": "*/*",
+            "User-Agent": "Mozilla/5.0 (Linux; Android 15; Pixel 9) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36",
         }
     )
     print("Status login:", r.status_code)
     print("Response login:", r.text[:300])
+    print("Cookies setelah login:", dict(session.cookies))
+
+    if r.status_code != 200:
+        raise Exception(f"Login gagal! Status: {r.status_code}")
+
+    # Validasi: pastikan accessToken ada di cookie
+    if not session.cookies.get("accessToken"):
+        raise Exception("Login gagal! accessToken tidak ditemukan di cookie.")
+
+    print("Login berhasil!")
     return session
 
 # ── Scrape ───────────────────────────────────────────────
