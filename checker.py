@@ -13,10 +13,13 @@ CACHE_FILE   = "last_data.json"
 # ── Login ────────────────────────────────────────────────
 session = requests.Session()
 
-# Ambil CSRF token dulu (Django butuh ini)
+# r = session.get(LOGIN_URL)
+# soup = BeautifulSoup(r.text, "html.parser")
+# csrf_token = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
+
 r = session.get(LOGIN_URL)
-soup = BeautifulSoup(r.text, "html.parser")
-csrf_token = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
+print("URL setelah redirect:", r.url)
+print("200 karakter pertama:", r.text[:200])
 
 login_payload = {
     "csrfmiddlewaretoken": csrf_token,
