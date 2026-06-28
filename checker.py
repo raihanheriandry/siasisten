@@ -14,15 +14,18 @@ CACHE_FILE   = "last_data.json"
 def login():
     session = requests.Session()
 
+    # Cek cookie apa yang ada setelah GET homepage
     session.get("https://siasisten.cs.ui.ac.id/")
-    csrf = session.cookies.get("csrftoken")
-    print("CSRF token:", csrf)
+    print("Cookies setelah GET:", dict(session.cookies))
+
+    # Coba juga GET halaman login
+    session.get("https://siasisten.cs.ui.ac.id/login")
+    print("Cookies setelah GET login:", dict(session.cookies))
 
     r = session.post(
         LOGIN_URL,
         data=f"username={os.environ['SITE_USERNAME']}&password={os.environ['SITE_PASSWORD']}",
         headers={
-            "X-CSRFToken": csrf,
             "Referer": "https://siasisten.cs.ui.ac.id/login",
             "Origin": "https://siasisten.cs.ui.ac.id",
             "Content-Type": "text/x-script; charset=utf-8",
@@ -30,10 +33,6 @@ def login():
     )
     print("Status login:", r.status_code)
     print("Response login:", r.text[:300])
-
-    if r.status_code != 200:
-        raise Exception(f"Login gagal! Status: {r.status_code}")
-
     return session
 
 # ── Scrape ───────────────────────────────────────────────
