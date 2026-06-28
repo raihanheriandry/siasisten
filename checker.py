@@ -88,8 +88,8 @@ def notify(row):
             "title": "🔔 Lowongan Baru — Semester Selanjutnya",
             "color": status_color,
             "fields": [
-                {"name": "📚 Matkul",     "value": row["mata_kuliah"],     "inline": True},
-                {"name": "👨‍🏫 Dosen",      "value": row["dosen"],           "inline": True},
+                {"name": "📚 Matkul",     "value": row["mata_kuliah"],     "inline": False},
+                {"name": "👨‍🏫 Dosen",      "value": row["dosen"],           "inline": False},
                 {"name": "📋 Status",      "value": row["status_lowongan"], "inline": True},
                 {"name": "🪑 Kuota",       "value": row["jumlah_lowongan"], "inline": True},
                 {"name": "👥 Pendaftar",   "value": row["jumlah_pelamar"],  "inline": True},
