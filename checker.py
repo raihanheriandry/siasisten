@@ -5,34 +5,26 @@ import requests
 from bs4 import BeautifulSoup
 
 # ── Config ──────────────────────────────────────────────
-LOGIN_URL    = "https://siasisten.cs.ui.ac.id/login/"
+LOGIN_URL    = "https://siasisten.cs.ui.ac.id/login.data"
 LOWONGAN_URL = "https://siasisten.cs.ui.ac.id/lowongan/listLowongan/"
-DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK"]
+DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK_URL"]
 CACHE_FILE   = "last_data.json"
 
 # ── Login ────────────────────────────────────────────────
 session = requests.Session()
 
-# r = session.get(LOGIN_URL)
-# soup = BeautifulSoup(r.text, "html.parser")
-# csrf_token = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
-
-r = session.get(LOGIN_URL)
-print("URL setelah redirect:", r.url)
-print("200 karakter pertama:", r.text[:200])
-
-login_payload = {
-    "csrfmiddlewaretoken": csrf_token,
-    "username": os.environ["SIASISTEN_USER"],
-    "password": os.environ["SIASISTEN_PASS"],
-}
-
-r = session.post(LOGIN_URL, data=login_payload, headers={"Referer": LOGIN_URL})
+r = session.post(LOGIN_URL, json={
+    "username": os.environ["SITE_USERNAME"],
+    "password": os.environ["SITE_PASSWORD"],
+})
 r.raise_for_status()
 
+print("Login response:", r.status_code, r.text[:200])
+
 # Validasi login berhasil
-if "login" in r.url.lower() or "Login" in r.text[:500]:
-    raise Exception("Login gagal! Cek username/password.")
+data = r.json()
+if not data.get("success") and not data.get("token") and r.status_code != 200:
+    raise Exception(f"Login gagal: {r.text}")
 
 print("Login berhasil.")
 
@@ -41,7 +33,6 @@ r = session.get(LOWONGAN_URL)
 r.raise_for_status()
 soup = BeautifulSoup(r.text, "html.parser")
 
-# Cari section "Semester Selanjutnya"
 section = soup.find("div", {"data-testid": "section-semester-selanjutnya"})
 if not section:
     raise Exception("Section semester selanjutnya tidak ditemukan.")
@@ -51,11 +42,10 @@ for tr in section.select("table tbody tr"):
     cols = [td.get_text(strip=True) for td in tr.find_all("td")]
     if len(cols) >= 5:
         row = {
-            "no":              cols[0],
             "mata_kuliah":     cols[1],
-            "dosen":           cols[2],
-            "status_lowongan": cols[3],
-            "jumlah_lowongan": cols[4],
+            "dosen":           cols[3],
+            "status_lowongan": cols[4],
+            "jumlah_lowongan": cols[5],
         }
         rows.append(row)
 
@@ -66,10 +56,8 @@ if os.path.exists(CACHE_FILE):
     with open(CACHE_FILE) as f:
         cached = json.load(f)
     old_hashes = set(cached.get("hashes", []))
-    old_rows   = {r["mata_kuliah"]: r for r in cached.get("rows", [])}
 else:
     old_hashes = set()
-    old_rows   = {}
 
 # ── Deteksi baris baru ───────────────────────────────────
 def row_hash(row):
@@ -87,18 +75,17 @@ if new_rows:
                 "title": "🔔 Lowongan Baru — Semester Selanjutnya",
                 "color": status_color,
                 "fields": [
-                    {"name": "📚 Mata Kuliah", "value": row["mata_kuliah"], "inline": False},
-                    {"name": "👨‍🏫 Dosen",       "value": row["dosen"],        "inline": True},
-                    {"name": "📋 Status",       "value": row["status_lowongan"], "inline": True},
-                    {"name": "🪑 Kuota",        "value": row["jumlah_lowongan"], "inline": True},
+                    {"name": "📚 Mata Kuliah",  "value": row["mata_kuliah"],     "inline": False},
+                    {"name": "👨‍🏫 Dosen",        "value": row["dosen"],           "inline": True},
+                    {"name": "📋 Status",        "value": row["status_lowongan"], "inline": True},
+                    {"name": "🪑 Kuota",         "value": row["jumlah_lowongan"], "inline": True},
                 ],
                 "footer": {"text": "SIAsisten • Ganjil 2026/2027"},
                 "url": LOWONGAN_URL,
             }]
         }
-        resp = requests.post(DISCORD_WEBHOOK, json=payload)
-        print(f"Notifikasi dikirim: {row['mata_kuliah']} (status {resp.status_code})")
-    print(f"Total {len(new_rows)} lowongan baru dikirim ke Discord.")
+        requests.post(DISCORD_WEBHOOK, json=payload)
+        print(f"Notifikasi dikirim: {row['mata_kuliah']}")
 else:
     print("Tidak ada lowongan baru.")
 
