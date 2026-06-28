@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # ── Config ──────────────────────────────────────────────
 LOGIN_URL    = "https://siasisten.cs.ui.ac.id/login/"
 LOWONGAN_URL = "https://siasisten.cs.ui.ac.id/lowongan/listLowongan/"
-DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK_URL"]
+DISCORD_WEBHOOK = os.environ["DISCORD_WEBHOOK"]
 CACHE_FILE   = "last_data.json"
 
 # ── Login ────────────────────────────────────────────────
@@ -20,8 +20,8 @@ csrf_token = soup.find("input", {"name": "csrfmiddlewaretoken"})["value"]
 
 login_payload = {
     "csrfmiddlewaretoken": csrf_token,
-    "username": os.environ["SITE_USERNAME"],
-    "password": os.environ["SITE_PASSWORD"],
+    "username": os.environ["SIASISTEN_USER"],
+    "password": os.environ["SIASISTEN_PASS"],
 }
 
 r = session.post(LOGIN_URL, data=login_payload, headers={"Referer": LOGIN_URL})
