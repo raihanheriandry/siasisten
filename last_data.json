@@ -1,9 +1,33 @@
 {
   "hashes": [
+    "f04315622ecfacf04619904ed6f92729",
+    "343e92a83b129e97f5de9faad68c4113",
+    "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
     "288f7cdf88af44b8fdab87cb061a8cb3"
   ],
   "rows": [
+    {
+      "mata_kuliah": "Aljabar Linier",
+      "dosen": "lia.saditakasmjaruniyasminlulu.ilmaknun12",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "9",
+      "jumlah_pelamar": "11"
+    },
+    {
+      "mata_kuliah": "Dasar-Dasar Pemrograman 1",
+      "dosen": "alfanyohanesiisafriyantifarizfebrianrachmadiichlasul.affan12jessica.nibad.rahadian12lulu.ilmaknun12",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "32",
+      "jumlah_pelamar": "20"
+    },
+    {
+      "mata_kuliah": "Pengajaran Berbantuan Komputer",
+      "dosen": "kasmjlintang.matahari01",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
     {
       "mata_kuliah": "Pengantar Organisasi Komputer",
       "dosen": "adhi",
@@ -16,7 +40,7 @@
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "15"
+      "jumlah_pelamar": "16"
     }
   ]
 }
