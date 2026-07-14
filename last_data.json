@@ -21,28 +21,28 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "43"
+      "jumlah_pelamar": "44"
     },
     {
       "mata_kuliah": "Basis Data",
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "29"
+      "jumlah_pelamar": "31"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "77"
+      "jumlah_pelamar": "82"
     },
     {
       "mata_kuliah": "Forensik Digital",
       "dosen": "amril.syalim",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "1",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Kalkulus 1",
@@ -56,7 +56,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "48"
+      "jumlah_pelamar": "52"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -70,14 +70,14 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "74"
+      "jumlah_pelamar": "77"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "nancenka",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "16"
+      "jumlah_pelamar": "17"
     },
     {
       "mata_kuliah": "Pengajaran Berbantuan Komputer",
@@ -91,7 +91,7 @@
       "dosen": "adhi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "13"
+      "jumlah_pelamar": "14"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
@@ -112,7 +112,7 @@
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "12"
+      "jumlah_pelamar": "13"
     }
   ]
 }
