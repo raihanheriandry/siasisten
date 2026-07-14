@@ -1,14 +1,18 @@
 {
   "hashes": [
     "66df193a80a0426abfc5ed72a617e85d",
+    "03407ba96801e031f61eb389bb6071cf",
     "7b8f884121f8655d583bd7956c49b273",
+    "26b6a1f15f77b4fbb8f1c0399ab1ff25",
     "a07b1eabef4a9cdfb9c00cfed2477f54",
     "a9e935906c4b25bdf4f1e29861133138",
     "0acf8bcb6ee2a2b6b959f1e1e61a744b",
     "1fcfcb99f400f16aebe10005613d0b98",
+    "e8dc4995efbcdae57e6ca7959570a498",
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
     "ab14108236b8e49fe497b736db62df92",
+    "9c0f6c822c545eb08492ea60b9f4f8fe",
     "288f7cdf88af44b8fdab87cb061a8cb3"
   ],
   "rows": [
@@ -17,42 +21,63 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "31"
+      "jumlah_pelamar": "36"
+    },
+    {
+      "mata_kuliah": "Basis Data",
+      "dosen": "evi.yilma.amimairiika.alfina",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "12",
+      "jumlah_pelamar": "13"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "58"
+      "jumlah_pelamar": "65"
+    },
+    {
+      "mata_kuliah": "Forensik Digital",
+      "dosen": "amril.syalim",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "1",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Kalkulus 1",
       "dosen": "aruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "3",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Kalkulus 1",
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "33"
+      "jumlah_pelamar": "39"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
       "dosen": "hanafitriani",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "4"
+      "jumlah_pelamar": "6"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "63"
+      "jumlah_pelamar": "67"
+    },
+    {
+      "mata_kuliah": "Pemrograman Berbasis Platform",
+      "dosen": "nancenka",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Pengajaran Berbantuan Komputer",
@@ -73,7 +98,14 @@
       "dosen": "hanafitrianinabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
+    },
+    {
+      "mata_kuliah": "Sistem Operasi",
+      "dosen": "amril.syalim",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "1",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Struktur Linear",
