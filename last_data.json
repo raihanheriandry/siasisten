@@ -22,21 +22,21 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "43"
+      "jumlah_pelamar": "44"
     },
     {
       "mata_kuliah": "Basis Data",
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "32"
+      "jumlah_pelamar": "33"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "84"
+      "jumlah_pelamar": "88"
     },
     {
       "mata_kuliah": "Forensik Digital",
@@ -57,7 +57,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "57"
+      "jumlah_pelamar": "62"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -71,7 +71,7 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "78"
+      "jumlah_pelamar": "82"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -99,7 +99,7 @@
       "dosen": "herik",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "5"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
@@ -120,7 +120,7 @@
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "13"
+      "jumlah_pelamar": "14"
     }
   ]
 }
