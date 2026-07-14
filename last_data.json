@@ -11,6 +11,7 @@
     "e8dc4995efbcdae57e6ca7959570a498",
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
+    "d6a30b62f1fc97df855ecd16df3b48eb",
     "ab14108236b8e49fe497b736db62df92",
     "9c0f6c822c545eb08492ea60b9f4f8fe",
     "288f7cdf88af44b8fdab87cb061a8cb3"
@@ -28,7 +29,7 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "31"
+      "jumlah_pelamar": "32"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
@@ -56,7 +57,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "54"
+      "jumlah_pelamar": "57"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -92,6 +93,13 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
       "jumlah_pelamar": "14"
+    },
+    {
+      "mata_kuliah": "Pengantar Sistem Operasi",
+      "dosen": "herik",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "11",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
