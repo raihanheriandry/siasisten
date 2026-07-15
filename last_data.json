@@ -2,6 +2,7 @@
   "hashes": [
     "addf63ea5c5d186e39b4ffc6f8540b32",
     "03407ba96801e031f61eb389bb6071cf",
+    "ef094918ca495c6caa3864baf82aed43",
     "7b8f884121f8655d583bd7956c49b273",
     "26b6a1f15f77b4fbb8f1c0399ab1ff25",
     "2a00bfd98d9984bc47149c4ee2348afc",
@@ -11,6 +12,7 @@
     "e8dc4995efbcdae57e6ca7959570a498",
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
+    "decceb50122df9bfc330238123938f00",
     "d6a30b62f1fc97df855ecd16df3b48eb",
     "ab14108236b8e49fe497b736db62df92",
     "9c0f6c822c545eb08492ea60b9f4f8fe",
@@ -23,21 +25,28 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "46"
+      "jumlah_pelamar": "44"
     },
     {
       "mata_kuliah": "Basis Data",
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "35"
+      "jumlah_pelamar": "38"
+    },
+    {
+      "mata_kuliah": "Dasar-Dasar Arsitektur Komputer",
+      "dosen": "santo",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "96"
+      "jumlah_pelamar": "102"
     },
     {
       "mata_kuliah": "Forensik Digital",
@@ -58,7 +67,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "66"
+      "jumlah_pelamar": "72"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -72,14 +81,14 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "82"
+      "jumlah_pelamar": "84"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "nancenka",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Pengajaran Berbantuan Komputer",
@@ -96,11 +105,18 @@
       "jumlah_pelamar": "14"
     },
     {
+      "mata_kuliah": "Pengantar Sistem Digital",
+      "dosen": "arawindasantoefi",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "14",
+      "jumlah_pelamar": "7"
+    },
+    {
       "mata_kuliah": "Pengantar Sistem Operasi",
       "dosen": "herik",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "5"
+      "jumlah_pelamar": "7"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
