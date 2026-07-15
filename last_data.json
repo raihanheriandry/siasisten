@@ -13,6 +13,7 @@
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
     "decceb50122df9bfc330238123938f00",
+    "54bad153193fc5085a33bde1892b0939",
     "d6a30b62f1fc97df855ecd16df3b48eb",
     "ab14108236b8e49fe497b736db62df92",
     "9c0f6c822c545eb08492ea60b9f4f8fe",
@@ -32,14 +33,14 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "38"
+      "jumlah_pelamar": "41"
     },
     {
       "mata_kuliah": "Dasar-Dasar Arsitektur Komputer",
       "dosen": "santo",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "0"
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
@@ -67,7 +68,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "72"
+      "jumlah_pelamar": "73"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -81,14 +82,14 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "84"
+      "jumlah_pelamar": "86"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "nancenka",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "20"
+      "jumlah_pelamar": "19"
     },
     {
       "mata_kuliah": "Pengajaran Berbantuan Komputer",
@@ -109,21 +110,28 @@
       "dosen": "arawindasantoefi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "14",
-      "jumlah_pelamar": "7"
+      "jumlah_pelamar": "14"
+    },
+    {
+      "mata_kuliah": "Pengantar Sistem Digital",
+      "dosen": "efi",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "5",
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Pengantar Sistem Operasi",
       "dosen": "herik",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "7"
+      "jumlah_pelamar": "8"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
       "dosen": "hanafitrianinabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "6"
+      "jumlah_pelamar": "7"
     },
     {
       "mata_kuliah": "Sistem Operasi",
@@ -137,7 +145,7 @@
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "13"
+      "jumlah_pelamar": "14"
     },
     {
       "mata_kuliah": "Topik Khusus Ilmu Komputer",
