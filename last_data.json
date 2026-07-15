@@ -4,9 +4,14 @@
     "03407ba96801e031f61eb389bb6071cf",
     "ef094918ca495c6caa3864baf82aed43",
     "7b8f884121f8655d583bd7956c49b273",
+    "25678e7182472bd3cca951ad0abe0ec1",
     "26b6a1f15f77b4fbb8f1c0399ab1ff25",
     "2a00bfd98d9984bc47149c4ee2348afc",
     "a9e935906c4b25bdf4f1e29861133138",
+    "62bc4912bfb0b581f5701a2b3df4e0c8",
+    "dda08809f653bb8e6b5bdec366d819e8",
+    "9a4615e415fab29ab454d46a14461446",
+    "897aa037c0589f52a2ae3848213bdaa3",
     "0acf8bcb6ee2a2b6b959f1e1e61a744b",
     "1fcfcb99f400f16aebe10005613d0b98",
     "e8dc4995efbcdae57e6ca7959570a498",
@@ -40,7 +45,7 @@
       "dosen": "santo",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "4"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
@@ -48,6 +53,13 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
       "jumlah_pelamar": "102"
+    },
+    {
+      "mata_kuliah": "Dasar-Dasar Pemrograman 2",
+      "dosen": "adea",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "5"
     },
     {
       "mata_kuliah": "Forensik Digital",
@@ -68,7 +80,35 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "73"
+      "jumlah_pelamar": "76"
+    },
+    {
+      "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
+      "dosen": "tusty.nadia12aminahvektor.dewanto12adilalaksmita",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "9",
+      "jumlah_pelamar": "10"
+    },
+    {
+      "mata_kuliah": "Komputer & Masyarakat",
+      "dosen": "wnugrohoyugo",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
+    },
+    {
+      "mata_kuliah": "Matematika Diskret  2",
+      "dosen": "arlisa",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "5"
+    },
+    {
+      "mata_kuliah": "Matematika Diskret 1",
+      "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "25",
+      "jumlah_pelamar": "19"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -82,14 +122,14 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "86"
+      "jumlah_pelamar": "89"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "nancenka",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Pengajaran Berbantuan Komputer",
@@ -110,21 +150,21 @@
       "dosen": "arawindasantoefi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "14",
-      "jumlah_pelamar": "14"
+      "jumlah_pelamar": "16"
     },
     {
       "mata_kuliah": "Pengantar Sistem Digital",
       "dosen": "efi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "5",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Pengantar Sistem Operasi",
       "dosen": "herik",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "8"
+      "jumlah_pelamar": "9"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
