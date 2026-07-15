@@ -2,6 +2,7 @@
   "hashes": [
     "addf63ea5c5d186e39b4ffc6f8540b32",
     "03407ba96801e031f61eb389bb6071cf",
+    "244836f040c178d22b10ef394a750107",
     "ef094918ca495c6caa3864baf82aed43",
     "7b8f884121f8655d583bd7956c49b273",
     "25678e7182472bd3cca951ad0abe0ec1",
@@ -38,7 +39,14 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "43"
+      "jumlah_pelamar": "44"
+    },
+    {
+      "mata_kuliah": "Computer Vision",
+      "dosen": "febrianrachmadilaksmita",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "8",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Dasar-Dasar Arsitektur Komputer",
@@ -52,7 +60,7 @@
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "107"
+      "jumlah_pelamar": "108"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 2",
@@ -80,7 +88,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "80"
+      "jumlah_pelamar": "81"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
@@ -108,7 +116,7 @@
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "48"
+      "jumlah_pelamar": "53"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -150,7 +158,7 @@
       "dosen": "arawindasantoefi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "14",
-      "jumlah_pelamar": "20"
+      "jumlah_pelamar": "21"
     },
     {
       "mata_kuliah": "Pengantar Sistem Digital",
