@@ -21,7 +21,7 @@
     "3ff73b672f00a29adabb8d13b847b29a",
     "decceb50122df9bfc330238123938f00",
     "54bad153193fc5085a33bde1892b0939",
-    "d6a30b62f1fc97df855ecd16df3b48eb",
+    "e14ccb4f69a2b7aa7315053634dc4e85",
     "ab14108236b8e49fe497b736db62df92",
     "9c0f6c822c545eb08492ea60b9f4f8fe",
     "a4a9033defb7538dbbef3d19a187dc8f",
@@ -48,7 +48,7 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "53"
+      "jumlah_pelamar": "54"
     },
     {
       "mata_kuliah": "Computer Vision",
@@ -69,7 +69,7 @@
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "115"
+      "jumlah_pelamar": "116"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 2",
@@ -125,7 +125,7 @@
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "76"
+      "jumlah_pelamar": "79"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -139,7 +139,7 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "99"
+      "jumlah_pelamar": "100"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -178,7 +178,7 @@
     },
     {
       "mata_kuliah": "Pengantar Sistem Operasi",
-      "dosen": "herik",
+      "dosen": "herikyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
       "jumlah_pelamar": "12"
@@ -202,14 +202,14 @@
       "dosen": "vektor.dewanto12rahmad.mahendrafebrianrachmadi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "6"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Struktur Linear",
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "15"
+      "jumlah_pelamar": "16"
     },
     {
       "mata_kuliah": "Topik Khusus Ilmu Komputer",
