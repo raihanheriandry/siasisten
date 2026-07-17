@@ -2,35 +2,65 @@
   "hashes": [
     "addf63ea5c5d186e39b4ffc6f8540b32",
     "de06a0ed7caa46ad71ae6fa0c24897ba",
+    "0e83ed0790d9ce37c55dcb92dd185e2e",
     "03407ba96801e031f61eb389bb6071cf",
+    "00558abe544cf0170ad77f552e5ebfe4",
+    "02b0c10585f5a25796d82a97e306146e",
     "244836f040c178d22b10ef394a750107",
     "ef094918ca495c6caa3864baf82aed43",
+    "f1190a4c65167c3ead63fccd26419d8d",
     "7b8f884121f8655d583bd7956c49b273",
     "25678e7182472bd3cca951ad0abe0ec1",
+    "d178eda09dd011a63a082cd8097b2678",
+    "710c64a65c90b5753c77bf7364200820",
     "26b6a1f15f77b4fbb8f1c0399ab1ff25",
+    "7398998cc2cfab2cb384f4b829508773",
+    "f71e40bdefd93284d1d2641d27964287",
     "2a00bfd98d9984bc47149c4ee2348afc",
     "acca68cbe07fb42b750b634f0079d39a",
+    "edb9caa77b503b4bc2d5c20aa12ee84f",
     "62bc4912bfb0b581f5701a2b3df4e0c8",
+    "56c6ae8583e737dc6aa81d166256d41c",
+    "e45c533bd1379d355e0ce0ce8350bf7f",
+    "d4b9dca1eab1ea194fc5e6ade0106488",
     "dda08809f653bb8e6b5bdec366d819e8",
     "555745b1c5c55aacb7be4d06ca6815ec",
+    "e9d845636a1315bbc1a5fb55b0976e85",
+    "3ce6061e4a68991c6a691d23df97666b",
     "9a4615e415fab29ab454d46a14461446",
     "897aa037c0589f52a2ae3848213bdaa3",
     "540f53d9640c481b10d777549a00dc89",
+    "5ea751b7f4a522c3ead44aa0a9231475",
     "0acf8bcb6ee2a2b6b959f1e1e61a744b",
+    "e6bd835f85ce3f47d9cc99863ac27102",
     "1fcfcb99f400f16aebe10005613d0b98",
     "e8dc4995efbcdae57e6ca7959570a498",
+    "b66712b6b173a87d3b4fcea7715cd2fe",
+    "d9958a48fcea2c28c97ff2fc9207a5fe",
+    "9ca31fc4e44e37458e6ea1a9bc77d4dd",
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
     "decceb50122df9bfc330238123938f00",
     "54bad153193fc5085a33bde1892b0939",
     "e14ccb4f69a2b7aa7315053634dc4e85",
     "a3b5c4c302fe21186197986626b6d704",
+    "88482ae8ae4752cb6bc7e4d34596c9e4",
+    "9c7e19bcf69c38461150d5817daa5636",
+    "fe7b096e87b91bff3fd1cd371628fb66",
+    "746f6f3936781f21d6564663daba0405",
     "ab14108236b8e49fe497b736db62df92",
     "66f07f38319e0519c945a5e57ddc41d8",
+    "d97f55a1dc5fd6a00f85d52d628d39b1",
+    "28a92d5fd901b0609318f2701341a0e6",
+    "2b12fdc0fd5b8466c5241fa6128ee7c4",
     "9c0f6c822c545eb08492ea60b9f4f8fe",
+    "eb04d5ff0f2297dffefb98434c27777b",
+    "651f7a01b164f92c170a6b14c53ac1d8",
     "a4a9033defb7538dbbef3d19a187dc8f",
     "bd75b621005634a93447d280b01e9e68",
     "288f7cdf88af44b8fdab87cb061a8cb3",
+    "5624e9667627c0794cb673c0fbdc7db3",
+    "e7f5ca239a2916f110939d0bae7a386c",
     "4017fab9b7af890d3580cce2012f1950"
   ],
   "rows": [
@@ -39,21 +69,42 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "41"
+      "jumlah_pelamar": "39"
     },
     {
       "mata_kuliah": "Analisis Numerik",
       "dosen": "meganingrumokkyibrohim",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "9"
+      "jumlah_pelamar": "13"
+    },
+    {
+      "mata_kuliah": "Analitika Media Sosial",
+      "dosen": "satrio.baskoro",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Basis Data",
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "57"
+      "jumlah_pelamar": "55"
+    },
+    {
+      "mata_kuliah": "Basis Data",
+      "dosen": "evi.yimairi",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Basis Data Lanjut",
+      "dosen": "hendrieg",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Computer Vision",
@@ -67,21 +118,42 @@
       "dosen": "santo",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "6"
+      "jumlah_pelamar": "7"
+    },
+    {
+      "mata_kuliah": "Dasar-Dasar Audit SI",
+      "dosen": "hanafitriani",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "117"
+      "jumlah_pelamar": "116"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 2",
       "dosen": "adea",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "20"
+      "jumlah_pelamar": "22"
+    },
+    {
+      "mata_kuliah": "Desain & Analisis Algoritma",
+      "dosen": "ammar.fathin12yugo",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "6",
+      "jumlah_pelamar": "2"
+    },
+    {
+      "mata_kuliah": "E-Dagang",
+      "dosen": "shabrina.salsabila12yektiwirani",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Forensik Digital",
@@ -89,6 +161,20 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "1",
       "jumlah_pelamar": "2"
+    },
+    {
+      "mata_kuliah": "Graf Pengetahuan",
+      "dosen": "fariz",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Jaringan Komputer Lanjut",
+      "dosen": "ari.wmade.hartarizal.fa",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Kalkulus 1",
@@ -102,7 +188,14 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "78"
+      "jumlah_pelamar": "72"
+    },
+    {
+      "mata_kuliah": "Kalkulus 2",
+      "dosen": "chan",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "5"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
@@ -110,6 +203,27 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
       "jumlah_pelamar": "25"
+    },
+    {
+      "mata_kuliah": "Kerja Praktik 6 SKS",
+      "dosen": "jessica.niisokkyibrohim",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
+    },
+    {
+      "mata_kuliah": "Kesehatan Elektronik",
+      "dosen": "putu.wuri",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Komputasi Awan",
+      "dosen": "rizal.fa",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Komputer & Masyarakat",
@@ -123,7 +237,21 @@
       "dosen": "saptawijaya",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "3",
-      "jumlah_pelamar": "6"
+      "jumlah_pelamar": "10"
+    },
+    {
+      "mata_kuliah": "Manajemen Hubungan Pelanggan",
+      "dosen": "annisamonichayektiwirani",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "1"
+    },
+    {
+      "mata_kuliah": "Manajemen Proses Bisnis",
+      "dosen": "annisamonicha",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Matematika Diskret  2",
@@ -137,7 +265,7 @@
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "88"
+      "jumlah_pelamar": "87"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
@@ -147,6 +275,13 @@
       "jumlah_pelamar": "4"
     },
     {
+      "mata_kuliah": "Metodologi Penelitian & Penulisan Ilmiah",
+      "dosen": "yovayektiwiraniputu.wuri",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "2"
+    },
+    {
       "mata_kuliah": "Pemasaran Media Digital",
       "dosen": "hanafitriani",
       "status_lowongan": "Dibuka",
@@ -154,11 +289,18 @@
       "jumlah_pelamar": "9"
     },
     {
+      "mata_kuliah": "Pembangunan TIK untuk Negara Berkembang",
+      "dosen": "bettypnandhita.zefania12",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "0"
+    },
+    {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "26",
-      "jumlah_pelamar": "102"
+      "jumlah_pelamar": "103"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -166,6 +308,27 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
       "jumlah_pelamar": "24"
+    },
+    {
+      "mata_kuliah": "Pemrograman Fungsional",
+      "dosen": "adea",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
+    },
+    {
+      "mata_kuliah": "Pemrograman Kompetitif",
+      "dosen": "dennyammar.fathin12",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Pemrosesan Bahasa Lisan",
+      "dosen": "kurniawati.azizah",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Pengajaran Berbantuan Komputer",
@@ -200,7 +363,7 @@
       "dosen": "herikyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "15"
+      "jumlah_pelamar": "16"
     },
     {
       "mata_kuliah": "Pengelolaan Data Besar",
@@ -210,11 +373,39 @@
       "jumlah_pelamar": "3"
     },
     {
+      "mata_kuliah": "Pengelolaan Produk Digital",
+      "dosen": "ave.pinemp.indahati",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Pengolahan Bahasa Manusia",
+      "dosen": "rahmad.mahendra",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
+    },
+    {
+      "mata_kuliah": "Penjaminan Mutu Perangkat Lunak",
+      "dosen": "dayaadianto",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Praktikum Pemrograman Kompetitif",
+      "dosen": "ammar.fathin12",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
       "dosen": "hanafitrianinabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "11"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Proyek Perangkat Lunak",
@@ -224,11 +415,46 @@
       "jumlah_pelamar": "3"
     },
     {
+      "mata_kuliah": "Rekayasa Perangkat Lunak",
+      "dosen": "iismayaretnomaya.retno",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "10",
+      "jumlah_pelamar": "2"
+    },
+    {
+      "mata_kuliah": "Simulasi & Pemodelan",
+      "dosen": "wnugroho",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Sistem Informasi Sumber Daya Manusia",
+      "dosen": "annisamonichakamila.alifia12",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "4",
+      "jumlah_pelamar": "0"
+    },
+    {
       "mata_kuliah": "Sistem Operasi",
       "dosen": "amril.syalim",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "1",
       "jumlah_pelamar": "6"
+    },
+    {
+      "mata_kuliah": "Sistem Operasi",
+      "dosen": "mishbahamril.syalimhendrieg",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "6",
+      "jumlah_pelamar": "2"
+    },
+    {
+      "mata_kuliah": "Sistem Tertanam",
+      "dosen": "santo",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Statistika dan Probabilitas",
@@ -250,6 +476,20 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "18"
+    },
+    {
+      "mata_kuliah": "Teknik Kompilator",
+      "dosen": "heru",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Teori Bahasa & Automata",
+      "dosen": "setiawan",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Topik Khusus Ilmu Komputer",
