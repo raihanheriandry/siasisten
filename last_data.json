@@ -12,8 +12,10 @@
     "acca68cbe07fb42b750b634f0079d39a",
     "62bc4912bfb0b581f5701a2b3df4e0c8",
     "dda08809f653bb8e6b5bdec366d819e8",
+    "555745b1c5c55aacb7be4d06ca6815ec",
     "9a4615e415fab29ab454d46a14461446",
     "897aa037c0589f52a2ae3848213bdaa3",
+    "540f53d9640c481b10d777549a00dc89",
     "0acf8bcb6ee2a2b6b959f1e1e61a744b",
     "1fcfcb99f400f16aebe10005613d0b98",
     "e8dc4995efbcdae57e6ca7959570a498",
@@ -37,7 +39,7 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "43"
+      "jumlah_pelamar": "41"
     },
     {
       "mata_kuliah": "Analisis Numerik",
@@ -51,7 +53,7 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "56"
+      "jumlah_pelamar": "55"
     },
     {
       "mata_kuliah": "Computer Vision",
@@ -72,7 +74,7 @@
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "118"
+      "jumlah_pelamar": "117"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 2",
@@ -100,14 +102,14 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "79"
+      "jumlah_pelamar": "78"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
       "dosen": "tusty.nadia12aminahvektor.dewanto12adilalaksmita",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "26"
+      "jumlah_pelamar": "25"
     },
     {
       "mata_kuliah": "Komputer & Masyarakat",
@@ -117,18 +119,32 @@
       "jumlah_pelamar": "2"
     },
     {
+      "mata_kuliah": "Logika dan Struktur Diskret",
+      "dosen": "saptawijaya",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "3",
+      "jumlah_pelamar": "3"
+    },
+    {
       "mata_kuliah": "Matematika Diskret  2",
       "dosen": "arlisa",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "37"
+      "jumlah_pelamar": "36"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "81"
+      "jumlah_pelamar": "82"
+    },
+    {
+      "mata_kuliah": "Matematika Diskret 1",
+      "dosen": "saptawijaya",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -142,7 +158,7 @@
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "26",
-      "jumlah_pelamar": "102"
+      "jumlah_pelamar": "101"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -170,7 +186,7 @@
       "dosen": "arawindasantoefi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "14",
-      "jumlah_pelamar": "27"
+      "jumlah_pelamar": "28"
     },
     {
       "mata_kuliah": "Pengantar Sistem Digital",
@@ -198,7 +214,7 @@
       "dosen": "hanafitrianinabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "10"
+      "jumlah_pelamar": "11"
     },
     {
       "mata_kuliah": "Proyek Perangkat Lunak",
@@ -226,14 +242,14 @@
       "dosen": "nilam.faprinaldi12setiawanlintang.matahari01",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "20",
-      "jumlah_pelamar": "37"
+      "jumlah_pelamar": "40"
     },
     {
       "mata_kuliah": "Struktur Linear",
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "17"
+      "jumlah_pelamar": "18"
     },
     {
       "mata_kuliah": "Topik Khusus Ilmu Komputer",
