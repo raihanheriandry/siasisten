@@ -121,7 +121,7 @@
       "dosen": "satrio.baskoro",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Arsitektur & Pemrograman Aplikasi Perush.",
@@ -240,7 +240,7 @@
       "dosen": "ari.wibad.rahadian12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "5"
+      "jumlah_pelamar": "6"
     },
     {
       "mata_kuliah": "Kalkulus 1",
@@ -268,7 +268,7 @@
       "dosen": "adila",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
@@ -296,7 +296,7 @@
       "dosen": "rizal.fa",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Komputer & Masyarakat",
@@ -310,7 +310,7 @@
       "dosen": "shabrina.salsabila12larastriputu.wuri",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "26"
+      "jumlah_pelamar": "27"
     },
     {
       "mata_kuliah": "Logika dan Struktur Diskret",
@@ -331,7 +331,7 @@
       "dosen": "annisamonichayektiwirani",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "7"
+      "jumlah_pelamar": "8"
     },
     {
       "mata_kuliah": "Manajemen Proses Bisnis",
@@ -352,7 +352,7 @@
       "dosen": "widiaresti",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "21"
+      "jumlah_pelamar": "22"
     },
     {
       "mata_kuliah": "Matematika Diskret  2",
@@ -401,7 +401,7 @@
       "dosen": "bettypnandhita.zefania12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "9"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -471,21 +471,21 @@
       "dosen": "herikyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "17"
+      "jumlah_pelamar": "18"
     },
     {
       "mata_kuliah": "Pengantar Statistika",
       "dosen": "azzahro.fatimahlarastrikamila.alifia12aminahnizarnabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "25"
+      "jumlah_pelamar": "28"
     },
     {
       "mata_kuliah": "Pengelolaan Data Besar",
       "dosen": "aprinaldi12wibowo",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "3"
+      "jumlah_pelamar": "4"
     },
     {
       "mata_kuliah": "Pengelolaan Produk Digital",
@@ -499,7 +499,7 @@
       "dosen": "rahmad.mahendra",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Penjaminan Mutu Perangkat Lunak",
@@ -576,7 +576,7 @@
       "dosen": "mishbahamril.syalimhendrieg",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "6",
-      "jumlah_pelamar": "10"
+      "jumlah_pelamar": "11"
     },
     {
       "mata_kuliah": "Sistem Tertanam",
@@ -604,7 +604,7 @@
       "dosen": "nilam.faprinaldi12setiawanlintang.matahari01",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "20",
-      "jumlah_pelamar": "50"
+      "jumlah_pelamar": "52"
     },
     {
       "mata_kuliah": "Struktur Linear",
