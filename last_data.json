@@ -262,7 +262,7 @@
       "dosen": "chan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "11"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Kalkulus Univariat",
@@ -311,7 +311,7 @@
       "dosen": "shabrina.salsabila12larastriputu.wuri",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "29"
+      "jumlah_pelamar": "30"
     },
     {
       "mata_kuliah": "Logika dan Struktur Diskret",
@@ -640,7 +640,7 @@
       "dosen": "ikhsanul.habibie12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "1"
+      "jumlah_pelamar": "2"
     }
   ]
 }
