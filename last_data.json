@@ -68,6 +68,7 @@
     "7c776fa28a1e089579d7c99398ad6f0e",
     "d97f55a1dc5fd6a00f85d52d628d39b1",
     "28a92d5fd901b0609318f2701341a0e6",
+    "0b30531536e5694f8778a8c5a7860c6b",
     "2b12fdc0fd5b8466c5241fa6128ee7c4",
     "64ef169334d88fb5ef8279008bd3d5b2",
     "9c0f6c822c545eb08492ea60b9f4f8fe",
@@ -94,7 +95,7 @@
       "dosen": "lia.saditalulu.ilmaknun12kasmjaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "34"
+      "jumlah_pelamar": "33"
     },
     {
       "mata_kuliah": "Analisis dan Perancangan Sistem Informasi",
@@ -234,7 +235,7 @@
       "dosen": "ari.wmade.hartarizal.fa",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "4"
+      "jumlah_pelamar": "6"
     },
     {
       "mata_kuliah": "Jaringan Komunikasi dan Data",
@@ -262,7 +263,7 @@
       "dosen": "chan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "10"
+      "jumlah_pelamar": "11"
     },
     {
       "mata_kuliah": "Kalkulus Univariat",
@@ -542,18 +543,25 @@
       "dosen": "putu.edy",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Rekayasa Perangkat Lunak",
       "dosen": "iismayaretnomaya.retno",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "3"
+      "jumlah_pelamar": "5"
     },
     {
       "mata_kuliah": "Simulasi & Pemodelan",
       "dosen": "wnugroho",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
+    },
+    {
+      "mata_kuliah": "Sistem Informasi Lanjut",
+      "dosen": "danaimairi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "0"
@@ -584,7 +592,7 @@
       "dosen": "mishbahamril.syalimhendrieg",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "6",
-      "jumlah_pelamar": "12"
+      "jumlah_pelamar": "13"
     },
     {
       "mata_kuliah": "Sistem Tertanam",
