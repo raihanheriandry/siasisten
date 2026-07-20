@@ -88,7 +88,7 @@
       "dosen": "dina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "5"
+      "jumlah_pelamar": "6"
     },
     {
       "mata_kuliah": "Aljabar Linier",
@@ -102,14 +102,14 @@
       "dosen": "nabila.clydea02p.indahatiwidiaresti",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "6",
-      "jumlah_pelamar": "17"
+      "jumlah_pelamar": "18"
     },
     {
       "mata_kuliah": "Analisis Numerik",
       "dosen": "chan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Analisis Numerik",
@@ -179,14 +179,14 @@
       "dosen": "hanafitriani",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
-      "jumlah_pelamar": "119"
+      "jumlah_pelamar": "118"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
@@ -312,7 +312,7 @@
       "dosen": "shabrina.salsabila12larastriputu.wuri",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "38"
+      "jumlah_pelamar": "41"
     },
     {
       "mata_kuliah": "Logika dan Struktur Diskret",
@@ -326,7 +326,7 @@
       "dosen": "azzahro.fatimahkamila.alifia12nandhita.zefania12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "42"
+      "jumlah_pelamar": "45"
     },
     {
       "mata_kuliah": "Manajemen Hubungan Pelanggan",
@@ -368,7 +368,7 @@
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "81"
+      "jumlah_pelamar": "80"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
@@ -403,14 +403,14 @@
       "dosen": "bettypnandhita.zefania12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "16"
+      "jumlah_pelamar": "17"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
       "dosen": "jessica.narawindaichlasul.affan12iisafriyantidayaadiantoilma.ainur12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "26",
-      "jumlah_pelamar": "103"
+      "jumlah_pelamar": "102"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -473,14 +473,14 @@
       "dosen": "herikyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Pengantar Statistika",
       "dosen": "azzahro.fatimahlarastrikamila.alifia12aminahnizarnabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "31"
+      "jumlah_pelamar": "30"
     },
     {
       "mata_kuliah": "Pengelolaan Data Besar",
@@ -494,7 +494,7 @@
       "dosen": "ave.pinemp.indahati",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "11"
+      "jumlah_pelamar": "12"
     },
     {
       "mata_kuliah": "Pengolahan Bahasa Manusia",
@@ -627,7 +627,7 @@
       "dosen": "alfan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "3",
-      "jumlah_pelamar": "18"
+      "jumlah_pelamar": "19"
     },
     {
       "mata_kuliah": "Teknik Kompilator",
