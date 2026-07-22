@@ -28,7 +28,7 @@
     "edb9caa77b503b4bc2d5c20aa12ee84f",
     "ddb95abdf3e67fb65859b6e22d64828e",
     "62bc4912bfb0b581f5701a2b3df4e0c8",
-    "56c6ae8583e737dc6aa81d166256d41c",
+    "d00f9dd78d72534a936951f9ef5dd0ac",
     "e45c533bd1379d355e0ce0ce8350bf7f",
     "d4b9dca1eab1ea194fc5e6ade0106488",
     "dda08809f653bb8e6b5bdec366d819e8",
@@ -165,7 +165,7 @@
       "dosen": "febrianrachmadilaksmita",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "6"
+      "jumlah_pelamar": "7"
     },
     {
       "mata_kuliah": "Dasar-Dasar Arsitektur Komputer",
@@ -282,7 +282,7 @@
     {
       "mata_kuliah": "Kerja Praktik 6 SKS",
       "dosen": "jessica.niisokkyibrohim",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "5"
     },
@@ -347,7 +347,7 @@
       "dosen": "ave.pinem",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Manajemen Sistem Informasi",
