@@ -54,7 +54,7 @@
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
     "decceb50122df9bfc330238123938f00",
-    "54bad153193fc5085a33bde1892b0939",
+    "41a37dd3ab83830ded113f368e6e4683",
     "e14ccb4f69a2b7aa7315053634dc4e85",
     "a5e444abe7a3127ff5bc52e63563cee7",
     "a3b5c4c302fe21186197986626b6d704",
@@ -256,7 +256,7 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "65"
+      "jumlah_pelamar": "64"
     },
     {
       "mata_kuliah": "Kalkulus 2",
@@ -347,7 +347,7 @@
       "dosen": "ave.pinem",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "20"
+      "jumlah_pelamar": "21"
     },
     {
       "mata_kuliah": "Manajemen Sistem Informasi",
@@ -368,7 +368,7 @@
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "79"
+      "jumlah_pelamar": "78"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
@@ -464,9 +464,9 @@
     {
       "mata_kuliah": "Pengantar Sistem Digital",
       "dosen": "efi",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "5",
-      "jumlah_pelamar": "11"
+      "jumlah_pelamar": "12"
     },
     {
       "mata_kuliah": "Pengantar Sistem Operasi",
