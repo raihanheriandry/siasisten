@@ -13,7 +13,7 @@
     "02b0c10585f5a25796d82a97e306146e",
     "244836f040c178d22b10ef394a750107",
     "ef094918ca495c6caa3864baf82aed43",
-    "f1190a4c65167c3ead63fccd26419d8d",
+    "31168f159d404f1ee4f90e1794941b6b",
     "7b8f884121f8655d583bd7956c49b273",
     "5618ba9614478c8cec416cca50eb96ca",
     "25678e7182472bd3cca951ad0abe0ec1",
@@ -38,7 +38,7 @@
     "e9d845636a1315bbc1a5fb55b0976e85",
     "3ce6061e4a68991c6a691d23df97666b",
     "6fea9fc10fa0d20bbdc781711f34b6fb",
-    "4ebbf75b21d5a133fa68d286dfcada3c",
+    "bb2f4d4cd465254a87d029ea38c0c8d0",
     "9a4615e415fab29ab454d46a14461446",
     "b275c42511c4789605b6343376d2251a",
     "540f53d9640c481b10d777549a00dc89",
@@ -101,7 +101,7 @@
       "mata_kuliah": "Analisis dan Perancangan Sistem Informasi",
       "dosen": "nabila.clydea02p.indahatiwidiaresti",
       "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "6",
+      "jumlah_lowongan": "10",
       "jumlah_pelamar": "20"
     },
     {
@@ -109,7 +109,7 @@
       "dosen": "chan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "3"
+      "jumlah_pelamar": "4"
     },
     {
       "mata_kuliah": "Analisis Numerik",
@@ -123,7 +123,7 @@
       "dosen": "satrio.baskoro",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Arsitektur & Pemrograman Aplikasi Perush.",
@@ -144,7 +144,7 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "55"
+      "jumlah_pelamar": "54"
     },
     {
       "mata_kuliah": "Basis Data",
@@ -176,7 +176,7 @@
     },
     {
       "mata_kuliah": "Dasar-Dasar Audit SI",
-      "dosen": "hanafitriani",
+      "dosen": "ave.pinem",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "5"
@@ -256,21 +256,21 @@
       "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "64"
+      "jumlah_pelamar": "63"
     },
     {
       "mata_kuliah": "Kalkulus 2",
       "dosen": "chan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "17"
+      "jumlah_pelamar": "19"
     },
     {
       "mata_kuliah": "Kalkulus Univariat",
       "dosen": "adila",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "24"
+      "jumlah_pelamar": "25"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
@@ -352,9 +352,9 @@
     {
       "mata_kuliah": "Manajemen Sistem Informasi",
       "dosen": "widiaresti",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "28"
+      "jumlah_pelamar": "29"
     },
     {
       "mata_kuliah": "Matematika Diskret  2",
@@ -403,7 +403,7 @@
       "dosen": "bettypnandhita.zefania12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "21"
+      "jumlah_pelamar": "22"
     },
     {
       "mata_kuliah": "Pemrograman Berbasis Platform",
@@ -473,7 +473,7 @@
       "dosen": "herikyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "22"
+      "jumlah_pelamar": "23"
     },
     {
       "mata_kuliah": "Pengantar Statistika",
@@ -620,7 +620,7 @@
       "dosen": "nilam.faprinaldi12setiawanlintang.matahari01",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "20",
-      "jumlah_pelamar": "56"
+      "jumlah_pelamar": "57"
     },
     {
       "mata_kuliah": "Struktur Linear",
