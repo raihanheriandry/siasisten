@@ -33,7 +33,7 @@
     "d4b9dca1eab1ea194fc5e6ade0106488",
     "dda08809f653bb8e6b5bdec366d819e8",
     "ca113230b46c35cb0084942b712b606a",
-    "555745b1c5c55aacb7be4d06ca6815ec",
+    "94b72f0edab90a2a26f3a71a2c6e4bf9",
     "510bfb669c7fb3c568f4712d984584b1",
     "e9d845636a1315bbc1a5fb55b0976e85",
     "3ce6061e4a68991c6a691d23df97666b",
@@ -41,7 +41,7 @@
     "bb2f4d4cd465254a87d029ea38c0c8d0",
     "9a4615e415fab29ab454d46a14461446",
     "b275c42511c4789605b6343376d2251a",
-    "540f53d9640c481b10d777549a00dc89",
+    "a96ccc174031c02e5c0a7a5992b047c4",
     "4a7b7bed30e3e08eaff70e6e3b593a08",
     "5ea751b7f4a522c3ead44aa0a9231475",
     "0acf8bcb6ee2a2b6b959f1e1e61a744b",
@@ -88,7 +88,7 @@
       "dosen": "dina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "9"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Aljabar Linier",
@@ -102,7 +102,7 @@
       "dosen": "nabila.clydea02p.indahatiwidiaresti",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "20"
+      "jumlah_pelamar": "21"
     },
     {
       "mata_kuliah": "Analisis Numerik",
@@ -193,7 +193,7 @@
       "dosen": "yohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "13"
+      "jumlah_pelamar": "14"
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 2",
@@ -317,7 +317,7 @@
     {
       "mata_kuliah": "Logika dan Struktur Diskret",
       "dosen": "saptawijaya",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "3",
       "jumlah_pelamar": "11"
     },
@@ -368,12 +368,12 @@
       "dosen": "arlisasaptawijayatusty.nadia12dinaika.alfina",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
-      "jumlah_pelamar": "78"
+      "jumlah_pelamar": "77"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
       "dosen": "saptawijaya",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "10"
     },
@@ -620,7 +620,7 @@
       "dosen": "nilam.faprinaldi12setiawanlintang.matahari01",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "20",
-      "jumlah_pelamar": "57"
+      "jumlah_pelamar": "59"
     },
     {
       "mata_kuliah": "Struktur Linear",
@@ -648,7 +648,7 @@
       "dosen": "ikhsanul.habibie12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "3"
+      "jumlah_pelamar": "4"
     }
   ]
 }
