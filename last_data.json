@@ -22,7 +22,7 @@
     "26b6a1f15f77b4fbb8f1c0399ab1ff25",
     "7398998cc2cfab2cb384f4b829508773",
     "34cbb35686f33bc4318fd596154092a4",
-    "0e6a3cc0423269b5110530c223364758",
+    "2f4e3725bc78f6ffa3c2bbadeb5a7cbc",
     "2a00bfd98d9984bc47149c4ee2348afc",
     "acca68cbe07fb42b750b634f0079d39a",
     "edb9caa77b503b4bc2d5c20aa12ee84f",
@@ -144,7 +144,7 @@
       "dosen": "evi.yilma.amimairiika.alfina",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "12",
-      "jumlah_pelamar": "55"
+      "jumlah_pelamar": "56"
     },
     {
       "mata_kuliah": "Basis Data",
@@ -239,7 +239,7 @@
     },
     {
       "mata_kuliah": "Jaringan Komunikasi dan Data",
-      "dosen": "ari.wibad.rahadian12",
+      "dosen": "ari.wibad.rahadian12made.harta",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
       "jumlah_pelamar": "10"
@@ -550,7 +550,7 @@
       "dosen": "iismayaretnomaya.retno",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "10"
+      "jumlah_pelamar": "9"
     },
     {
       "mata_kuliah": "Simulasi & Pemodelan",
