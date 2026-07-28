@@ -49,7 +49,6 @@
     "1fcfcb99f400f16aebe10005613d0b98",
     "e8dc4995efbcdae57e6ca7959570a498",
     "b66712b6b173a87d3b4fcea7715cd2fe",
-    "d9958a48fcea2c28c97ff2fc9207a5fe",
     "9ca31fc4e44e37458e6ea1a9bc77d4dd",
     "e971a9154e2914493b00fe56b80e6368",
     "3ff73b672f00a29adabb8d13b847b29a",
@@ -62,7 +61,6 @@
     "9c7e19bcf69c38461150d5817daa5636",
     "c9162f495eabca079bf1846891ee02d4",
     "fe7b096e87b91bff3fd1cd371628fb66",
-    "746f6f3936781f21d6564663daba0405",
     "ab14108236b8e49fe497b736db62df92",
     "66f07f38319e0519c945a5e57ddc41d8",
     "7c776fa28a1e089579d7c99398ad6f0e",
@@ -206,7 +204,7 @@
       "mata_kuliah": "Desain & Analisis Algoritma",
       "dosen": "ammar.fathin12yugo",
       "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "6",
+      "jumlah_lowongan": "9",
       "jumlah_pelamar": "5"
     },
     {
@@ -228,7 +226,7 @@
       "dosen": "fariz",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "0"
+      "jumlah_pelamar": "1"
     },
     {
       "mata_kuliah": "Jaringan Komputer",
@@ -263,14 +261,14 @@
       "dosen": "chan",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Kalkulus Univariat",
       "dosen": "adila",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "27"
+      "jumlah_pelamar": "26"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
@@ -361,7 +359,7 @@
       "dosen": "arlisa",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "34"
+      "jumlah_pelamar": "35"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
@@ -427,13 +425,6 @@
       "jumlah_pelamar": "2"
     },
     {
-      "mata_kuliah": "Pemrograman Kompetitif",
-      "dosen": "dennyammar.fathin12",
-      "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "2",
-      "jumlah_pelamar": "4"
-    },
-    {
       "mata_kuliah": "Pemrosesan Bahasa Lisan",
       "dosen": "kurniawati.azizah",
       "status_lowongan": "Dibuka",
@@ -473,7 +464,7 @@
       "dosen": "herikyohanes",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "11",
-      "jumlah_pelamar": "23"
+      "jumlah_pelamar": "21"
     },
     {
       "mata_kuliah": "Pengantar Statistika",
@@ -516,13 +507,6 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "1"
-    },
-    {
-      "mata_kuliah": "Praktikum Pemrograman Kompetitif",
-      "dosen": "ammar.fathin12",
-      "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "2",
-      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Proyek Pengembangan Sistem Informasi",
