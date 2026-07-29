@@ -79,7 +79,7 @@
     "288f7cdf88af44b8fdab87cb061a8cb3",
     "5624e9667627c0794cb673c0fbdc7db3",
     "e7f5ca239a2916f110939d0bae7a386c",
-    "4017fab9b7af890d3580cce2012f1950"
+    "e441e89be4fe0cff0b540ba4bdbcff11"
   ],
   "rows": [
     {
@@ -163,7 +163,7 @@
       "mata_kuliah": "Computer Vision",
       "dosen": "febrianrachmadilaksmita",
       "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "8",
+      "jumlah_lowongan": "6",
       "jumlah_pelamar": "9"
     },
     {
@@ -206,7 +206,7 @@
       "dosen": "ammar.fathin12yugo",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "9",
-      "jumlah_pelamar": "5"
+      "jumlah_pelamar": "6"
     },
     {
       "mata_kuliah": "E-Dagang",
@@ -241,14 +241,14 @@
       "dosen": "ari.wmade.hartarizal.fa",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "9"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Jaringan Komunikasi dan Data",
       "dosen": "ari.wibad.rahadian12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "9"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Kalkulus 1",
@@ -276,13 +276,13 @@
       "dosen": "adila",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "25"
+      "jumlah_pelamar": "24"
     },
     {
       "mata_kuliah": "Kecerdasan Artifisial &  Sains Data Dasar",
       "dosen": "tusty.nadia12aminahvektor.dewanto12adilalaksmita",
       "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "9",
+      "jumlah_lowongan": "13",
       "jumlah_pelamar": "29"
     },
     {
@@ -521,7 +521,7 @@
       "dosen": "hanafitrianinabila.clydea02",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "20"
+      "jumlah_pelamar": "19"
     },
     {
       "mata_kuliah": "Proyek Perangkat Lunak",
@@ -638,7 +638,7 @@
     {
       "mata_kuliah": "Topik Khusus Ilmu Komputer",
       "dosen": "ikhsanul.habibie12",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "4"
     }
