@@ -8,23 +8,24 @@
     "0e83ed0790d9ce37c55dcb92dd185e2e",
     "98e09536acbe5752678ebab381f0492e",
     "9bfc38fc36aeac3b14e2304ceb552cef",
-    "03407ba96801e031f61eb389bb6071cf",
-    "00558abe544cf0170ad77f552e5ebfe4",
+    "9cdad49ccf120adf74e27e5c542308c0",
+    "c4cd0830d254bc814f8ec93cbc548ce3",
     "02b0c10585f5a25796d82a97e306146e",
     "244836f040c178d22b10ef394a750107",
     "ef094918ca495c6caa3864baf82aed43",
     "31168f159d404f1ee4f90e1794941b6b",
-    "0857b2a6074b5a8ac27cc355c24aa46c",
+    "353937ba8572d6a8f95918e8606b603f",
     "5618ba9614478c8cec416cca50eb96ca",
     "25678e7182472bd3cca951ad0abe0ec1",
     "d178eda09dd011a63a082cd8097b2678",
-    "710c64a65c90b5753c77bf7364200820",
+    "7145311fea73d14b51d0c19734602565",
     "26b6a1f15f77b4fbb8f1c0399ab1ff25",
+    "993bcc95348115bbfbde6d14328c9efc",
     "7398998cc2cfab2cb384f4b829508773",
     "34cbb35686f33bc4318fd596154092a4",
-    "2f4e3725bc78f6ffa3c2bbadeb5a7cbc",
+    "0e6a3cc0423269b5110530c223364758",
     "2a00bfd98d9984bc47149c4ee2348afc",
-    "acca68cbe07fb42b750b634f0079d39a",
+    "64e332530e011c951a10595c86a9ac8b",
     "edb9caa77b503b4bc2d5c20aa12ee84f",
     "ddb95abdf3e67fb65859b6e22d64828e",
     "62bc4912bfb0b581f5701a2b3df4e0c8",
@@ -34,7 +35,7 @@
     "dda08809f653bb8e6b5bdec366d819e8",
     "ca113230b46c35cb0084942b712b606a",
     "94b72f0edab90a2a26f3a71a2c6e4bf9",
-    "510bfb669c7fb3c568f4712d984584b1",
+    "3d6bdc2e55f62e29e4a4243f9c9faa76",
     "e9d845636a1315bbc1a5fb55b0976e85",
     "3ce6061e4a68991c6a691d23df97666b",
     "6fea9fc10fa0d20bbdc781711f34b6fb",
@@ -57,12 +58,12 @@
     "e14ccb4f69a2b7aa7315053634dc4e85",
     "a5e444abe7a3127ff5bc52e63563cee7",
     "a3b5c4c302fe21186197986626b6d704",
-    "559e41b1d06d150dc07343bc6dbe0c72",
+    "75a67a1a4925fc05c9dc09bc89356207",
     "9c7e19bcf69c38461150d5817daa5636",
     "c9162f495eabca079bf1846891ee02d4",
     "fe7b096e87b91bff3fd1cd371628fb66",
     "ab14108236b8e49fe497b736db62df92",
-    "66f07f38319e0519c945a5e57ddc41d8",
+    "d793b1e4ef7c5d47e017203f870b00db",
     "7c776fa28a1e089579d7c99398ad6f0e",
     "d97f55a1dc5fd6a00f85d52d628d39b1",
     "28a92d5fd901b0609318f2701341a0e6",
@@ -74,7 +75,7 @@
     "651f7a01b164f92c170a6b14c53ac1d8",
     "fdb4614cde1736e78706055a2194740d",
     "a4a9033defb7538dbbef3d19a187dc8f",
-    "bd75b621005634a93447d280b01e9e68",
+    "f49cac156201713a9c988e2a4400674d",
     "288f7cdf88af44b8fdab87cb061a8cb3",
     "5624e9667627c0794cb673c0fbdc7db3",
     "e7f5ca239a2916f110939d0bae7a386c",
@@ -100,7 +101,7 @@
       "dosen": "nabila.clydea02p.indahatiwidiaresti",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "21"
+      "jumlah_pelamar": "22"
     },
     {
       "mata_kuliah": "Analisis Numerik",
@@ -139,17 +140,17 @@
     },
     {
       "mata_kuliah": "Basis Data",
-      "dosen": "evi.yilma.amimairiika.alfina",
-      "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "12",
-      "jumlah_pelamar": "56"
-    },
-    {
-      "mata_kuliah": "Basis Data",
-      "dosen": "evi.yimairi",
+      "dosen": "evi.y",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "8"
+    },
+    {
+      "mata_kuliah": "Basis Data",
+      "dosen": "ilma.amika.alfina",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "12",
+      "jumlah_pelamar": "56"
     },
     {
       "mata_kuliah": "Basis Data Lanjut",
@@ -181,7 +182,7 @@
     },
     {
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
-      "dosen": "jessica.nfebrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizyohanesilma.am",
+      "dosen": "febrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizilma.amdenny",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "28",
       "jumlah_pelamar": "124"
@@ -209,10 +210,10 @@
     },
     {
       "mata_kuliah": "E-Dagang",
-      "dosen": "shabrina.salsabila12yektiwirani",
+      "dosen": "shabrina.salsabila12yektiwiraniimairi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "21"
+      "jumlah_pelamar": "22"
     },
     {
       "mata_kuliah": "Forensik Digital",
@@ -220,6 +221,13 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "1",
       "jumlah_pelamar": "2"
+    },
+    {
+      "mata_kuliah": "Geometri Komputasional",
+      "dosen": "yohanes",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "2",
+      "jumlah_pelamar": "0"
     },
     {
       "mata_kuliah": "Graf Pengetahuan",
@@ -237,10 +245,10 @@
     },
     {
       "mata_kuliah": "Jaringan Komunikasi dan Data",
-      "dosen": "ari.wibad.rahadian12made.harta",
+      "dosen": "ari.wibad.rahadian12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "8"
+      "jumlah_pelamar": "9"
     },
     {
       "mata_kuliah": "Kalkulus 1",
@@ -251,7 +259,7 @@
     },
     {
       "mata_kuliah": "Kalkulus 1",
-      "dosen": "ikhsanul.habibie12ilma.amokkyibrohimheruaruniyasmin",
+      "dosen": "ikhsanul.habibie12okkyibrohimheruaruniyasmin",
       "status_lowongan": "Ditutup",
       "jumlah_lowongan": "25",
       "jumlah_pelamar": "62"
@@ -310,7 +318,7 @@
       "dosen": "shabrina.salsabila12larastriputu.wuri",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
-      "jumlah_pelamar": "48"
+      "jumlah_pelamar": "49"
     },
     {
       "mata_kuliah": "Logika dan Struktur Diskret",
@@ -321,7 +329,7 @@
     },
     {
       "mata_kuliah": "Manajemen Bisnis",
-      "dosen": "azzahro.fatimahkamila.alifia12nandhita.zefania12",
+      "dosen": "azzahro.fatimahkamila.alifia12nandhita.zefania12imairi",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "8",
       "jumlah_pelamar": "43"
@@ -345,7 +353,7 @@
       "dosen": "ave.pinem",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "19"
+      "jumlah_pelamar": "20"
     },
     {
       "mata_kuliah": "Manajemen Sistem Informasi",
@@ -387,7 +395,7 @@
       "dosen": "yovayektiwiraniputu.wuri",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "15"
+      "jumlah_pelamar": "16"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -482,7 +490,7 @@
     },
     {
       "mata_kuliah": "Pengelolaan Produk Digital",
-      "dosen": "ave.pinemp.indahatihanafitriani",
+      "dosen": "p.indahatihanafitriani",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
       "jumlah_pelamar": "15"
@@ -517,7 +525,7 @@
     },
     {
       "mata_kuliah": "Proyek Perangkat Lunak",
-      "dosen": "ilma.ainur12adeaputu.edy",
+      "dosen": "ilma.ainur12adea",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "6",
       "jumlah_pelamar": "8"
@@ -601,7 +609,7 @@
     },
     {
       "mata_kuliah": "Struktur Data & Algoritma",
-      "dosen": "nilam.faprinaldi12setiawanlintang.matahari01",
+      "dosen": "nilam.faprinaldi12setiawanlintang.matahari01ammar.fathin12",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "20",
       "jumlah_pelamar": "59"
