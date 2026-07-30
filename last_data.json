@@ -57,10 +57,12 @@
     "41a37dd3ab83830ded113f368e6e4683",
     "e14ccb4f69a2b7aa7315053634dc4e85",
     "a5e444abe7a3127ff5bc52e63563cee7",
+    "ba2bf8cea9c10507b135bf819716138e",
     "a3b5c4c302fe21186197986626b6d704",
     "75a67a1a4925fc05c9dc09bc89356207",
     "9c7e19bcf69c38461150d5817daa5636",
     "c9162f495eabca079bf1846891ee02d4",
+    "aedc42221f59b807a4d099dab5ffcdb4",
     "fe7b096e87b91bff3fd1cd371628fb66",
     "ab14108236b8e49fe497b736db62df92",
     "d793b1e4ef7c5d47e017203f870b00db",
@@ -234,7 +236,7 @@
       "dosen": "fariz",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "2"
+      "jumlah_pelamar": "3"
     },
     {
       "mata_kuliah": "Jaringan Komputer",
@@ -367,7 +369,7 @@
       "dosen": "arlisa",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "35"
+      "jumlah_pelamar": "36"
     },
     {
       "mata_kuliah": "Matematika Diskret 1",
@@ -482,6 +484,13 @@
       "jumlah_pelamar": "29"
     },
     {
+      "mata_kuliah": "Pengawas Ujian",
+      "dosen": "ilma.amaruniyasmin",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "1",
+      "jumlah_pelamar": "1"
+    },
+    {
       "mata_kuliah": "Pengelolaan Data Besar",
       "dosen": "aprinaldi12wibowo",
       "status_lowongan": "Dibuka",
@@ -508,6 +517,13 @@
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "1",
       "jumlah_pelamar": "1"
+    },
+    {
+      "mata_kuliah": "Pengurus Lembaga Asisten",
+      "dosen": "ilma.amaruniyasmin",
+      "status_lowongan": "Dibuka",
+      "jumlah_lowongan": "1",
+      "jumlah_pelamar": "2"
     },
     {
       "mata_kuliah": "Penjaminan Mutu Perangkat Lunak",
