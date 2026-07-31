@@ -8,7 +8,7 @@
     "0e83ed0790d9ce37c55dcb92dd185e2e",
     "98e09536acbe5752678ebab381f0492e",
     "9bfc38fc36aeac3b14e2304ceb552cef",
-    "9cdad49ccf120adf74e27e5c542308c0",
+    "0bf8fe7b654643ebfcd689c34c88bf5f",
     "c4cd0830d254bc814f8ec93cbc548ce3",
     "02b0c10585f5a25796d82a97e306146e",
     "244836f040c178d22b10ef394a750107",
@@ -23,7 +23,7 @@
     "993bcc95348115bbfbde6d14328c9efc",
     "7398998cc2cfab2cb384f4b829508773",
     "34cbb35686f33bc4318fd596154092a4",
-    "0e6a3cc0423269b5110530c223364758",
+    "2f4e3725bc78f6ffa3c2bbadeb5a7cbc",
     "2a00bfd98d9984bc47149c4ee2348afc",
     "64e332530e011c951a10595c86a9ac8b",
     "edb9caa77b503b4bc2d5c20aa12ee84f",
@@ -43,7 +43,7 @@
     "9a4615e415fab29ab454d46a14461446",
     "b275c42511c4789605b6343376d2251a",
     "a96ccc174031c02e5c0a7a5992b047c4",
-    "4a7b7bed30e3e08eaff70e6e3b593a08",
+    "1db4b966edab464fd85a1798112441f9",
     "5ea751b7f4a522c3ead44aa0a9231475",
     "0acf8bcb6ee2a2b6b959f1e1e61a744b",
     "e6bd835f85ce3f47d9cc99863ac27102",
@@ -124,7 +124,7 @@
       "dosen": "satrio.baskoro",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "4"
+      "jumlah_pelamar": "5"
     },
     {
       "mata_kuliah": "Arsitektur & Pemrograman Aplikasi Perush.",
@@ -143,7 +143,7 @@
     {
       "mata_kuliah": "Basis Data",
       "dosen": "evi.y",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "8"
     },
@@ -166,7 +166,7 @@
       "dosen": "febrianrachmadilaksmita",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "6",
-      "jumlah_pelamar": "9"
+      "jumlah_pelamar": "10"
     },
     {
       "mata_kuliah": "Dasar-Dasar Arsitektur Komputer",
@@ -186,7 +186,7 @@
       "mata_kuliah": "Dasar-Dasar Pemrograman 1",
       "dosen": "febrianrachmadilulu.ilmaknun12alfanichlasul.affan12ibad.rahadian12iisafriyantifarizilma.amdenny",
       "status_lowongan": "Dibuka",
-      "jumlah_lowongan": "28",
+      "jumlah_lowongan": "36",
       "jumlah_pelamar": "125"
     },
     {
@@ -247,7 +247,7 @@
     },
     {
       "mata_kuliah": "Jaringan Komunikasi dan Data",
-      "dosen": "ari.wibad.rahadian12",
+      "dosen": "ari.wibad.rahadian12made.harta",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
       "jumlah_pelamar": "10"
@@ -388,7 +388,7 @@
     {
       "mata_kuliah": "Metodologi Penelitian & Penulisan Ilmiah",
       "dosen": "evi.y",
-      "status_lowongan": "Dibuka",
+      "status_lowongan": "Ditutup",
       "jumlah_lowongan": "2",
       "jumlah_pelamar": "4"
     },
@@ -397,7 +397,7 @@
       "dosen": "yovayektiwiraniputu.wuri",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "4",
-      "jumlah_pelamar": "16"
+      "jumlah_pelamar": "17"
     },
     {
       "mata_kuliah": "Pemasaran Media Digital",
@@ -495,7 +495,7 @@
       "dosen": "aprinaldi12wibowo",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "2",
-      "jumlah_pelamar": "5"
+      "jumlah_pelamar": "6"
     },
     {
       "mata_kuliah": "Pengelolaan Produk Digital",
@@ -558,7 +558,7 @@
       "dosen": "iismayaretnomaya.retno",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "10",
-      "jumlah_pelamar": "10"
+      "jumlah_pelamar": "11"
     },
     {
       "mata_kuliah": "Simulasi & Pemodelan",
@@ -600,7 +600,7 @@
       "dosen": "mishbahamril.syalimhendrieg",
       "status_lowongan": "Dibuka",
       "jumlah_lowongan": "6",
-      "jumlah_pelamar": "15"
+      "jumlah_pelamar": "16"
     },
     {
       "mata_kuliah": "Sistem Tertanam",
